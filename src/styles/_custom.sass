@@ -1,31 +1,169 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 3.4s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 12%
+    right: 69%
+    width: 20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
-
+    top: 50%
+    right: 78%
+  &-3
+    animation: float1 3.2s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 4%
+    width: 22%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/mini-portada.svg") !important
+  background-repeat: no-repeat
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem        
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario       
+.lista-ul--color.color-2 li > i:first-of-type  
+  color: #1F6F7A   
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.w-fit
+  width: fit-content
 
 .bg1
   background-color: #FFDBA9 
   border-radius: 10px
-.bgimg1
-    background-image: url('../assets/curso/temas/t3/bg1.svg') !important;
-    background-size: cover
-    background-repeat: no-repeat
-    background-position: center 
-    height: 400px !important
+.bgc-1
+  background-image: url('../assets/curso/temas/t3/bg1.svg')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
 .tarjeta--blanca
   background-color: #FFFFFF 
+
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FE729D
+  border-color: #FE729D
+  opacity: 0.9
+.slyder-a__bullets__item
+  background-color: #FFF2E1
+  border-color: #FFF2E1
+.slyder-a__bullets__item--active
+  background-color: #FFDBA9
+  border-color: #FFDBA9
+.fle-circulo .slyder-f__btn i
+  font-size: 1rem
+  background-color: #FE729D
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  color: #FFF
+  display: flex
+  justify-content: center
+  align-items: center
+
+
+// TARJETA HOVER    
+.nav-holder2
+  display: inline-block
+  overflow: hidden
+  position: relative
+  border-radius: 25px
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+.nav-holder2:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #8F61C2
+  opacity: 1
+  z-index: 888
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
+  transition: all 0.45s ease
+  -webkit-transform: translateY(80%)
+  -moz-transform: translateY(80%)
+  transform: translateY(80%)
+.nav-holder2:hover:before
+  -webkit-transform: translateY(20%)
+  -moz-transform: translateY(20%)
+  transform: translateY(20%)
+  opacity: 1
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+  background-color: #FFDBA9
+.nav-holder2
+  .text
+    position: absolute
+    top: 70%
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+    bottom: 0
+    padding: 1em
+  img
+    backface-visibility: hidden
+    max-width: 100%
+    vertical-align: top
+    z-index: 0
+  p
+    margin: 0
+    opacity: 0
+    line-height: 1.2em
+.nav-holder2 h4
+  margin: 0
+  opacity: 1
+  color: #FFF
+.nav-holder2:hover
+  .text
+    top: 10%
+  h4, p
+    opacity: 1
+    color: $color-sistema-texto
+@media (max-width: $bp-max-xs)    
+  .nav-holder2 .text
+    top: 75%
+  .nav-holder2:hover .text 
+    top: 24%
+  .nav-holder2:hover:before
+    -webkit-transform: translateY(30%)
+    -moz-transform: translateY(30%)
+    transform: translateY(30%)

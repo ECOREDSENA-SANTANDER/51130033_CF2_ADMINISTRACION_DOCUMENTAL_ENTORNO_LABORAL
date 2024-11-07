@@ -7,16 +7,16 @@
         span 1
       h1 La administración
     
-    .row
-      .col-lg-3
+    .row.align-items-end
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
         img(src="@/assets/curso/temas/t1/img1.png", alt="")
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         p.mb-3 Dentro de la gestión de archivos y documentos, la administración es entendida como un proceso secuencial de acciones y operaciones lógicas, necesarias en su aplicación y seguimiento, con el fin de generar resultados óptimos en la recepción, registro, entrega, alistamiento y distribución de las comunicaciones en toda estructura organizacional.
-        .row
-          .col-lg-10
+        .row.align-items-end
+          .col-lg-9
             .bg1.p-4
-              p De acuerdo con el proceso de maduración social a lo largo de la historia del hombre, gracias a la conceptualización y lineamientos de la administración se lograron formas de organización asociativa, en donde la asignación de responsabilidades y jerarquización del direccionamiento, facilitaron el desarrollo de procesos interactivos que orientaron progresos en la obtención de resultados esperados, dando origen a fases bien estructuradas de planeación, organización, direccionamiento y control de recursos disponibles, hecho incuestionable, de aplicación directa en la administración documental. 
-          .col-lg-2
+              p.mb-0 De acuerdo con el proceso de maduración social a lo largo de la historia del hombre, gracias a la conceptualización y lineamientos de la administración se lograron formas de organización asociativa, en donde la asignación de responsabilidades y jerarquización del direccionamiento, facilitaron el desarrollo de procesos interactivos que orientaron progresos en la obtención de resultados esperados, dando origen a fases bien estructuradas de planeación, organización, direccionamiento y control de recursos disponibles, hecho incuestionable, de aplicación directa en la administración documental. 
+          .col-lg-3
             img(src="@/assets/curso/temas/t1/icono1.svg", alt="")
 
     

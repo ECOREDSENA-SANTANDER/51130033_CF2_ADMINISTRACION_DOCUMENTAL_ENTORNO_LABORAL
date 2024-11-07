@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Administración de comunicaciones oficiales',
     descripcionCurso:
       'En la administración documental existe un campo de especial manejo y cuidado, que es la gestión de comunicaciones oficiales, en este componente además de desmenuzar el tema de la administración documental, explicar sus características y los principios y pautas, se detallan los procesos para el manejo responsable de documentos oficiales.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -130,11 +130,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -157,7 +157,7 @@ export default {
       },
     ],
   },
-  complementario: [
+  /*complementario: [
     {
       tema: '',
       referencia: '',
@@ -170,7 +170,7 @@ export default {
       tipo: '',
       descarga: '/downloads/prueba.pdf',
     },
-  ],
+  ],*/
   glosario: [
     {
       termino: 'Abreviatura',
@@ -248,30 +248,30 @@ export default {
           nombre: 'Rosa Elvia Quintero Guasca',
           cargo: 'Desarrollador de contenido',
           centro:
-            'Centro Industrial de Mantenimiento Integral - CIMI. Regional Santander',
+            'Centro Industrial de Mantenimiento Integral - CIMI. - Regional Santander',
         },
         {
           nombre: 'Luis Orlando Beltrán Vargas',
           cargo: 'Asesor Pedagógico Experto temático',
           centro:
-            'Centro Industrial de Mantenimiento Integral - CIMI. Regional Santander',
+            'Centro Industrial de Mantenimiento Integral - CIMI. - Regional Santander',
         },
         {
           nombre: 'Oscar Julian Márquez Sanabria',
           cargo: 'Diseño',
           centro:
-            'Centro Industrial de Mantenimiento Integral - CIMI. Regional Santander',
+            'Centro Industrial de Mantenimiento Integral - CIMI. - Regional Santander',
         },
         {
           nombre: 'Francisco José Lizcano Reyes',
           cargo: 'Programación',
           centro:
-            'Centro Industrial de Mantenimiento Integral - CIMI. Regional Santander',
+            'Centro Industrial de Mantenimiento Integral - CIMI. - Regional Santander',
         },
         {
           nombre: 'Carolina Jiménez Suescun',
           cargo: 'Evaluadora instruccional',
-          centro: '',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -279,24 +279,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrolladora <em>fullstack</em>',
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñadora de Contenidos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>full stack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -304,24 +299,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: '',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
