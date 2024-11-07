@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Administración de comunicaciones oficiales',
+    descripcionCurso:
+      'En la administración documental existe un campo de especial manejo y cuidado, que es la gestión de comunicaciones oficiales, en este componente además de desmenuzar el tema de la administración documental, explicar sus características y los principios y pautas, se detallan los procesos para el manejo responsable de documentos oficiales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,27 +36,79 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La administración',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Pasos para la administración',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Administración documental',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Finalidad de la administración documental',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Funciones de la administración documental ',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Administración documental',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Pautas para la administración de comunicaciones oficiales',
+            hash: 't_4_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Comunicaciones oficiales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'comunicaciones oficiales internas',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'comunicaciones oficiales recibidas',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'comunicaciones oficiales enviadas',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'formatos para la recepción y despacho de documentos',
+            hash: 't_5_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Embalaje de los documentos',
         desarrolloContenidos: true,
       },
     ],
@@ -116,17 +173,55 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Abreviatura',
+      significado:
+        'Representación gráfica de una palabra reducida en una o varias de sus letras',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Archivo electrónico',
+      significado:
+        'Conjunto de documentos electrónicos, producidos y tratados archivísticamente, siguiendo la estructura orgánico-funcional del productor, acumulados en un proceso natural por una persona o institución pública o privada, en el transcurso de su gestión.',
+    },
+    {
+      termino: 'Comunicaciones oficiales',
+      significado:
+        'Son todas aquellas recibidas o producidas en desarrollo de las funciones asignadas legalmente a una entidad, independientemente de medio utilizado.',
+    },
+    {
+      termino: 'Gestión documental',
+      significado:
+        'Conjunto de actividades administrativas y técnicas, tendientes a la planificación, manejo y organización de la documentación producida y recibida por las entidades.',
+    },
+    {
+      termino: 'Proceso',
+      significado:
+        'Conjunto de actividades mutuamente relacionadas, o que interactúan para generar valor, mediante la transformación de elementos de entrada en resultados.',
+    },
+    {
+      termino: 'Radicación',
+      significado:
+        'Procedimiento por medio del cual las organizaciones asignan un número consecutivo a las comunicaciones recibidas o producidas, dejando constancia de la fecha y hora del recibo o del envío.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'ARCHIVO GENEREAL DE LA NACIÓN - COLOMBIA. (30 de Octubre de 2001). ACUERDO 060 - PAUTAS PARA LA ADMINISTRACIÓN DE LAS COMUNICACIONES OFICIALES EN LAS ENTIDADES PÚBLICAS Y LAS PRIVADS QUE CUMPLEN FUNCIONES PÚBLICAS. Recuperado el 28 de septiembre de 2016.',
+      link: '',
+    },
+    {
+      referencia:
+        'ARCHIVO GENERAL DE LA NACIÓN. (2016). Banco Terminológico. Recuperado el 12 de octubre de 2016.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (14 de Julio de 2000). LEY 594 DE 2000. Por medio de la cual se dicta la Ley General de Archivos y se dictan otras Disposiciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'ICONTEC. (30 de Septiembre de 2009). Guía Técnica Colombiana GTC 185. Recuperado el 10 de Octubre de 2016, de:',
       link: '',
     },
   ],
@@ -140,9 +235,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,9 +245,33 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Rosa Elvia Quintero Guasca',
+          cargo: 'Desarrollador de contenido',
+          centro:
+            'Centro Industrial de Mantenimiento Integral - CIMI. Regional Santander',
+        },
+        {
+          nombre: 'Luis Orlando Beltrán Vargas',
+          cargo: 'Asesor Pedagógico Experto temático',
+          centro:
+            'Centro Industrial de Mantenimiento Integral - CIMI. Regional Santander',
+        },
+        {
+          nombre: 'Oscar Julian Márquez Sanabria',
+          cargo: 'Diseño',
+          centro:
+            'Centro Industrial de Mantenimiento Integral - CIMI. Regional Santander',
+        },
+        {
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Programación',
+          centro:
+            'Centro Industrial de Mantenimiento Integral - CIMI. Regional Santander',
+        },
+        {
+          nombre: 'Carolina Jiménez Suescun',
+          cargo: 'Evaluadora instruccional',
+          centro: '',
         },
       ],
     },
@@ -165,9 +284,9 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>fullstack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Nombre',

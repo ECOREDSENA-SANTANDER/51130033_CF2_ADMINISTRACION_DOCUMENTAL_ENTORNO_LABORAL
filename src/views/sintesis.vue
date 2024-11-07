@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 La gestión de comunicaciones y documentación oficial es un área de especial cuidado dentro de la administración documental, al explicar las clases que existen y las características que puede tener un documento, se da cuenta de la importancia de saber identificarlos para realizar los procesos adecuados y poder cumplir a cabalidad las normas establecidas para su tratamiento. En el siguiente diagrama, se presentan los contenidos del componente formativo:
 
     .row.justify-content-center
       .col-lg-10.mb-5

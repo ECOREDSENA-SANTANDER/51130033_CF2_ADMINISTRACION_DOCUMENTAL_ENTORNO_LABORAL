@@ -9,6 +9,13 @@
           i.fas.fa-info
       h1 Introducción
     
+    p.mb-4 En el siguiente video, se presenta una introducción y expone de manera breve el contenido del componente formativo: 
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+    
 </template>
 
 <script>
