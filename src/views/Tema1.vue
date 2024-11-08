@@ -16,7 +16,7 @@
           .col-lg-9
             .bg1.p-4
               p.mb-0 De acuerdo con el proceso de maduración social a lo largo de la historia del hombre, gracias a la conceptualización y lineamientos de la administración se lograron formas de organización asociativa, en donde la asignación de responsabilidades y jerarquización del direccionamiento, facilitaron el desarrollo de procesos interactivos que orientaron progresos en la obtención de resultados esperados, dando origen a fases bien estructuradas de planeación, organización, direccionamiento y control de recursos disponibles, hecho incuestionable, de aplicación directa en la administración documental. 
-          .col-lg-3
+          .col-lg-3.d-none.d-lg-block
             img(src="@/assets/curso/temas/t1/icono1.svg", alt="")
 
     
