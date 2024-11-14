@@ -21,7 +21,7 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-10
         .cajon.color-secundario.p-4.px-lg-5.mb-4
-          p.mb-0 #[b ACUERDO No. 001 del 2024 (29 de febrero) “Por el cual se establece el Acuerdo Único de la Función Archivística, se definen los criterios técnicos y jurídicos para su implementación en el Estado Colombiano y se fijan otras disposiciones.”:] norma establecida para orientar la adecuada prestación de los servicios ofrecidos por las unidades de correspondencia de las entidades públicas y privadas, o aquellas privadas que cumplen funciones públicas, instituyendo pautas que hagan efectivo su cumplimiento bajo los principios que rigen la administración pública. 
+          p.mb-0 #[b ACUERDO No. 001 del 2024 (29 de febrero) “Por el cual se establece el Acuerdo Único de la Función Archivística, se definen los criterios técnicos y jurídicos para su implementación en el Estado Colombiano y se fijan otras disposiciones”:] norma establecida para orientar la adecuada prestación de los servicios ofrecidos por las unidades de correspondencia de las entidades públicas y privadas, o aquellas privadas que cumplen funciones públicas, instituyendo pautas que hagan efectivo su cumplimiento bajo los principios que rigen la administración pública. 
     
     .row.mb-4
       .col-lg-8(data-aos="fade-right")

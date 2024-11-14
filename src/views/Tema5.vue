@@ -124,7 +124,7 @@
           p En el caso de la comunicación que no cumpla con todos los requisitos correspondientes en el proceso de revisión y verificación como por ejemplo no ir firmada, se considera anónima y deberá ser remitida sin radicar, además de proceder a una respectiva investigación. 
       .row.justify-content-center(titulo="Radicación")
         .col-lg-11
-          p #[b “radicación es el procedimiento por medio del cual las organizaciones asignan un número consecutivo a las comunicaciones recibidas o producidas, dejando constancia de la fecha y hora del recibo o del envío”] (Acuerdo 060 de 2001). 
+          p #[b “Radicación es el procedimiento por medio del cual las organizaciones asignan un número consecutivo a las comunicaciones recibidas o producidas, dejando constancia de la fecha y hora del recibo o del envío”] (Acuerdo 060 de 2001). 
           p La radicación se efectúa mediante la impresión de un sello en el documento que indica que es de propiedad de la organización. Este sello se denomina radicador, puede ser aplicado de forma manual, mecánica o sistematizada. En él se indica el número según orden de recepción, la fecha y quién lo recibió; además, le permite al remitente estar pendiente de la respuesta y en qué serie se encuentra archivado. 
           .row
             .col-lg-3.d-none.d-lg-block

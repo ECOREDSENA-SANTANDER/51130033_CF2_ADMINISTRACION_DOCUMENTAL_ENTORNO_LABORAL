@@ -67,7 +67,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Administración documental',
+        titulo: 'Principios y normas archivísticas',
         desarrolloContenidos: true,
         subMenu: [
           {
