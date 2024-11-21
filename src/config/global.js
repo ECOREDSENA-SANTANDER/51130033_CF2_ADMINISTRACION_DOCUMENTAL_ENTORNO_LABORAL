@@ -130,11 +130,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      /*{
+      {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },*/
+      },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -157,20 +157,15 @@ export default {
       },
     ],
   },
-  /*complementario: [
+  complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '4.1 Pautas para la administración de comunicaciones oficiales',
+      referencia:
+        'ACUERDO No. 001 del 2024. (s/f). Gov.co. Recuperado el 21 de noviembre de 2024, de https://normativa.archivogeneral.gov.co/acuerdo-no-001-del-2024/',
+      tipo: 'Norma',
+      link: 'https://normativa.archivogeneral.gov.co/acuerdo-no-001-del-2024/',
     },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
-    },
-  ],*/
+  ],
   glosario: [
     {
       termino: 'Abreviatura',
@@ -205,24 +200,18 @@ export default {
   ],
   referencias: [
     {
-      referencia:
-        'ARCHIVO GENEREAL DE LA NACIÓN - COLOMBIA. (30 de Octubre de 2001). ACUERDO 060 - PAUTAS PARA LA ADMINISTRACIÓN DE LAS COMUNICACIONES OFICIALES EN LAS ENTIDADES PÚBLICAS Y LAS PRIVADS QUE CUMPLEN FUNCIONES PÚBLICAS. Recuperado el 28 de septiembre de 2016.',
-      link: '',
+      referencia: 'ACUERDO No. 001 del 2024. (s/f). Gov.co. Recuperado de',
+      link: 'https://normativa.archivogeneral.gov.co/acuerdo-no-001-del-2024/',
     },
     {
-      referencia:
-        'ARCHIVO GENERAL DE LA NACIÓN. (2016). Banco Terminológico. Recuperado el 12 de octubre de 2016.',
-      link: '',
+      referencia: 'Banco Terminológico. (s/f). Gov.co. Recuperado de ',
+      link:
+        'https://www.archivogeneral.gov.co/Gestion-del-Conocimiento/Banco-Terminologico',
     },
     {
-      referencia:
-        'Congreso de la República de Colombia. (14 de Julio de 2000). LEY 594 DE 2000. Por medio de la cual se dicta la Ley General de Archivos y se dictan otras Disposiciones.',
-      link: '',
-    },
-    {
-      referencia:
-        'ICONTEC. (30 de Septiembre de 2009). Guía Técnica Colombiana GTC 185. Recuperado el 10 de Octubre de 2016, de:',
-      link: '',
+      referencia: '(S/f). Studocu.com. Recuperado de ',
+      link:
+        'https://www.studocu.com/co/document/instituto-tecnico-de-administracion-y-salud/espanol/norma-gtc-185-guia-tecnica-colombiana/23264923',
     },
   ],
   creditos: [
@@ -244,6 +233,11 @@ export default {
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
+        {
+          nombre: 'Carmen Milena Ferreira Ardila',
+          cargo: 'Experta temática',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
         {
           nombre: 'Rosa Elvia Quintero Guasca',
           cargo: 'Desarrollador de contenido',
