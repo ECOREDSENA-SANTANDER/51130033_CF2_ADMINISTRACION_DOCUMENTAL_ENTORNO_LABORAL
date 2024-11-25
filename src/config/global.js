@@ -143,7 +143,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF2_51130033_DU .pdf',
       },
       {
         icono: 'fas fa-download',
@@ -170,7 +170,7 @@ export default {
     {
       termino: 'Abreviatura',
       significado:
-        'Representación gráfica de una palabra reducida en una o varias de sus letras',
+        'Representación gráfica de una palabra reducida en una o varias de sus letras.',
     },
     {
       termino: 'Archivo electrónico',
@@ -298,7 +298,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
