@@ -155,7 +155,7 @@ export default {
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien hecho! ',
+          mensaje_correcto: '¡Muy bien hecho!',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
