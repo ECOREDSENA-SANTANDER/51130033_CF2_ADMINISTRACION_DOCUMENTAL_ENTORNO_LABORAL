@@ -85,22 +85,22 @@ export default {
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'comunicaciones oficiales internas',
+            titulo: 'Comunicaciones oficiales internas',
             hash: 't_5_1',
           },
           {
             numero: '5.2',
-            titulo: 'comunicaciones oficiales recibidas',
+            titulo: 'Comunicaciones oficiales recibidas',
             hash: 't_5_2',
           },
           {
             numero: '5.3',
-            titulo: 'comunicaciones oficiales enviadas',
+            titulo: 'Comunicaciones oficiales enviadas',
             hash: 't_5_3',
           },
           {
             numero: '5.4',
-            titulo: 'formatos para la recepción y despacho de documentos',
+            titulo: 'Formatos para la recepción y despacho de documentos',
             hash: 't_5_4',
           },
         ],
@@ -161,7 +161,7 @@ export default {
     {
       tema: '4.1 Pautas para la administración de comunicaciones oficiales',
       referencia:
-        'ACUERDO No. 001 del 2024. (s/f). Gov.co. Recuperado el 21 de noviembre de 2024, de https://normativa.archivogeneral.gov.co/acuerdo-no-001-del-2024/',
+        'ACUERDO No. 001 del 2024. (s/f). Gov.co. Recuperado el 21 de noviembre de 2024',
       tipo: 'Norma',
       link: 'https://normativa.archivogeneral.gov.co/acuerdo-no-001-del-2024/',
     },
@@ -200,16 +200,16 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'ACUERDO No. 001 del 2024. (s/f). Gov.co. Recuperado de',
+      referencia: 'ACUERDO No. 001 del 2024. Gov.co. Recuperado de',
       link: 'https://normativa.archivogeneral.gov.co/acuerdo-no-001-del-2024/',
     },
     {
-      referencia: 'Banco Terminológico. (s/f). Gov.co. Recuperado de ',
+      referencia: 'Banco Terminológico. Gov.co. Recuperado de ',
       link:
         'https://www.archivogeneral.gov.co/Gestion-del-Conocimiento/Banco-Terminologico',
     },
     {
-      referencia: '(S/f). Studocu.com. Recuperado de ',
+      referencia: 'Studocu.com. Recuperado de ',
       link:
         'https://www.studocu.com/co/document/instituto-tecnico-de-administracion-y-salud/espanol/norma-gtc-185-guia-tecnica-colombiana/23264923',
     },

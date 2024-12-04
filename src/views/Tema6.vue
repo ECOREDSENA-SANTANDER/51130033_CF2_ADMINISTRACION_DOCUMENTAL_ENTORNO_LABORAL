@@ -23,7 +23,7 @@
               .row.justify-content-center
                 .col-lg-10.col-md-9.col-8
                   h5 El embalaje
-                  p Generalmente suele asociarse para cantidades más grandes de documentos o acervos que requieren ser trasladados, buscando conservar sus propiedades antes de iniciar el recorrido, durante el mismo y al final de su entrega. Se diligencia un formato con los datos más relevantes del documento, generalmente se traza un diseño específico según la empresa y los criterios documentales que se tengan en ella. Cuando la correspondencia está orientada a dar una respuesta, no sólo se registran los criterios de su salida o despacho sino que se anota también el consecutivo y fecha del documento que antecede a este; esta operación constituye el control y el trámite documental.
+                  p Generalmente suele asociarse para cantidades más grandes de documentos o acervos que requieren ser trasladados, buscando conservar sus propiedades antes de iniciar el recorrido, durante el mismo y al final de su entrega. Se diligencia un formato con los datos más relevantes del documento, generalmente se traza un diseño específico según la empresa y los criterios documentales que se tengan en ella. Cuando la correspondencia está orientada a dar una respuesta, no sólo se registran los criterios de su salida o despacho, sino que se anota también el consecutivo y fecha del documento que antecede a este; esta operación constituye el control y el trámite documental.
               .row.justify-content-center
                 .col-lg-10.col-md-9.col-8
                   h5 El envío

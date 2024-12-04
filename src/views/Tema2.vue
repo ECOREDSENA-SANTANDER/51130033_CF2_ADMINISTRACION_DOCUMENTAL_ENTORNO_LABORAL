@@ -18,7 +18,7 @@
             .text.p-lg-4.p-3
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xxl-4
                 h4.mt-4.mb-3 La Planificación
-                p Radica en un proceso lógico para alcanzar los objetivos del modo más eficiente siguiendo determinadas formas de acción. “metas” y “objetivos”. Los objetivos definen los pasos a cumplir para lograr las metas de las propuestas. 
+                p Radica en un proceso lógico para alcanzar los objetivos del modo más eficiente siguiendo determinadas formas de acción, “metas” y “objetivos”. Los objetivos definen los pasos a cumplir para lograr las metas de las propuestas. 
       .col-lg-3.col-md-6.col-11.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0(@mouseover="mostrarIndicador = false")

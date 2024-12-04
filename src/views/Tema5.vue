@@ -58,7 +58,7 @@
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.4 Formato para la recepción y despacho de documentos 
 
-    p.mb-4 Es el conjunto de operaciones de verificación y control que realiza una entidad pública o privada en la admisión despacho de documentos, su aplicación se realiza tanto a la documentación interna como a la externa.   
+    p.mb-4 Es el conjunto de operaciones de verificación y control que realiza una entidad pública o privada en la admisión y despacho de documentos, su aplicación se realiza tanto a la documentación interna como a la externa.   
     p El formato es el establecido por la empresa en lo que tiene que ver con la admisión o despacho de documentos, debiendo cumplir con los siguientes pasos:       
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--blanca" data-aos="fade-down")
@@ -105,7 +105,7 @@
                 | Los anexos deben estar completos.     
       .row.justify-content-center(titulo="Clasificación")
         .col-lg-11
-          p.mb-3 Este paso consiste en separar los documentos en el momento que se reciben; según el tipo de comunicaciones, estas se dividen en dos grupos:
+          p.mb-3 Este paso consiste en separar los documentos en el momento en que se reciben; según el tipo de comunicaciones, estas se dividen en dos grupos:
           .row.justify-content-center
             .col-lg-6
               img.mb-4.width-80(src="@/assets/curso/temas/t5/acordion2.svg", alt="")
@@ -121,7 +121,7 @@
       .row.justify-content-center(titulo="Revisión")
         .col-lg-11
           p Consiste en el examen de anexos, del destinatario, de los datos de procedencia y de la verificación del asunto para poder contestar la solicitud, de acuerdo con la necesidad competente de la entidad y realizar su respectiva radicación. 
-          p En el caso de la comunicación que no cumpla con todos los requisitos correspondientes en el proceso de revisión y verificación como por ejemplo no ir firmada, se considera anónima y deberá ser remitida sin radicar, además de proceder a una respectiva investigación. 
+          p En el caso de la comunicación que no cumpla con todos los requisitos correspondientes en el proceso de revisión y verificación, como por ejemplo no ir firmada, se considera anónima y deberá ser remitida sin radicar, además de proceder a una respectiva investigación. 
       .row.justify-content-center(titulo="Radicación")
         .col-lg-11
           p #[b “Radicación es el procedimiento por medio del cual las organizaciones asignan un número consecutivo a las comunicaciones recibidas o producidas, dejando constancia de la fecha y hora del recibo o del envío”] (Acuerdo 060 de 2001). 
