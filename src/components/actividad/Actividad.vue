@@ -14,7 +14,8 @@
     <div class="tarjeta tarjeta--lightest-gray px-4 pb-4 pt-4 px-md-5">
       <div
         v-if="respuestas.length !== preguntas.length"
-        class="d-flex justify-content-end mb-2">
+        class="d-flex justify-content-end mb-2"
+      >
         <div class="form-check form-switch">
           <input
             id="switchCheckAudio"

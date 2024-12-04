@@ -20,7 +20,8 @@
             'tarjeta-respuesta--incorrecta': respuesta.incorrecta,
             'tarjeta-respuesta--disabled': respuesta.disabled,
           }"
-          @click="onRespuestaSelected(respuesta)">
+          @click="onRespuestaSelected(respuesta)"
+        >
           <div class="row align-items-center">
             <div class="col-auto">
               <div

@@ -17,7 +17,8 @@
           v-else-if="respuestasLength === 9"
           class="boton btn-lg boton--b py-3 px-4"
           :class="{ 'boton--disabled': continuarDisabled }"
-          @click="$emit('continuar')">
+          @click="$emit('continuar')"
+        >
           <span>Verificar</span>
           <i class="fas fa-arrow-right"></i>
         </button>

@@ -11,7 +11,8 @@
         v-else
         src="@/assets/componentes/cuestionario-resultado.svg"
         alt=""
-        class="mx-auto d-none d-lg-block"/>
+        class="mx-auto d-none d-lg-block"
+      />
     </div>
     <div class="col-lg-4">
       <div class="d-flex align-items-center flex-column">

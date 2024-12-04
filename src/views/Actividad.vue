@@ -9,8 +9,10 @@
   </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad'
 export default {
   name: 'ActividadDidactica',
+  components: { Actividad },
   data: () => ({
     cuestionario: {
       tema: 'Administración de comunicaciones oficiales',
@@ -166,5 +168,7 @@ export default {
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
+  computed: {},
+  methods: {},
 }
 </script>
