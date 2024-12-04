@@ -168,3 +168,28 @@ export default {
   }),
 }
 </script>
+<script>
+import Actividad from '../components/actividad/Actividad.vue'
+import ActividadBarraAvance from '../components/actividad/ActividadBarraAvance.vue'
+import ActividadPregunta from '../components/actividad/ActividadPregunta.vue'
+import ActividadResultados from '../components/actividad/ActividadResultados.vue'
+export default {
+  components: {
+    Actividad,
+    ActividadBarraAvance,
+    ActividadPregunta,
+    ActividadResultados,
+  },
+  data: () => ({
+    // variables de vue
+  }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>
